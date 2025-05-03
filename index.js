@@ -30,4 +30,21 @@ const female = true
 const gender =male || female && isSunny || isRainny
 console.log(gender)
 
-// Ternary operator
+// Ternary operator 
+
+
+let Score = 70
+ let cutOffMark= Score < 100 && Score > 40 ? "you passed":"you did not pass"
+ console.log(cutOffMark)
+
+ let Status = 20
+ let attendance= 60
+ let result = Status >= 20 && attendance > 50 ? "you are eligible":"you are not eligible"
+ console.log(result)
+
+ let girl = false
+ let boy = true
+ let sex = girl || boy ? "confirmed":"not confirmed"
+ console.log(sex)
+
+ 
