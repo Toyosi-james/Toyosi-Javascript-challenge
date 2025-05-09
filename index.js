@@ -47,4 +47,11 @@ let Score = 70
  let sex = girl || boy ? "confirmed":"not confirmed"
  console.log(sex)
 
- 
+ const valueOne = parseInt(prompt("Enter your bfirst value"));
+const valuetwo = parseInt(prompt("Enter your second value"));
+
+if (valueOne > valuetwo) {
+  alert(`${valueOne} is grater than ${valuetwo}`);
+} else {
+  alert(`${valuetwo} is grater than ${valueOne}`);
+}
