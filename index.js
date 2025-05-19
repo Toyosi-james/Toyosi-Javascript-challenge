@@ -33,25 +33,59 @@ console.log(gender)
 // Ternary operator 
 
 
-let Score = 70
- let cutOffMark= Score < 100 && Score > 40 ? "you passed":"you did not pass"
- console.log(cutOffMark)
+// let Score = 70
+//  let cutOffMark= Score < 100 && Score > 40 ? "you passed":"you did not pass"
+//  console.log(cutOffMark)
 
- let Status = 20
- let attendance= 60
- let result = Status >= 20 && attendance > 50 ? "you are eligible":"you are not eligible"
- console.log(result)
+//  let Status = 20
+//  let attendance= 60
+//  let result = Status >= 20 && attendance > 50 ? "you are eligible":"you are not eligible"
+//  console.log(result)
 
- let girl = false
- let boy = true
- let sex = girl || boy ? "confirmed":"not confirmed"
- console.log(sex)
+//  let girl = false
+//  let boy = true
+//  let sex = girl || boy ? "confirmed":"not confirmed"
+//  console.log(sex)
 
- const valueOne = parseInt(prompt("Enter your bfirst value"));
-const valuetwo = parseInt(prompt("Enter your second value"));
+//  const valueOne = parseInt(prompt("Enter your bfirst value"));
+// const valuetwo = parseInt(prompt("Enter your second value"));
 
-if (valueOne > valuetwo) {
-  alert(`${valueOne} is grater than ${valuetwo}`);
-} else {
-  alert(`${valuetwo} is grater than ${valueOne}`);
+// if (valueOne > valuetwo) {
+//   alert(`${valueOne} is grater than ${valuetwo}`);
+// } else {
+//   alert(`${valuetwo} is grater than ${valueOne}`);
+// }
+
+
+let divide = (num1,num2)=>{
+console.log(num1/num2)
 }
+
+divide(30,2)
+
+// let check = ()=>{
+//   let checkNumber= prompt("Enter A Number")
+//   if (checkNumber % 2 === 0){
+//     console.log("This is an even number")
+//   }
+//   else{
+//     console.log("This is an odd number")
+//   }
+// }
+// check()
+
+// let highestNumber=(num1,num2,num3)=>{
+//   num1=parseInt(prompt("Enter first number"))
+//   num2 =parseInt(prompt("Enter Second Number"))
+//   num3 =parseInt(prompt("Enter third Number"))
+  
+//   console.log(Math.max(num1,num2,num3))
+// }
+// highestNumber(20,30,50)
+
+
+let sample = (firstsample)=>{
+firstsample =prompt("Enter a string")
+alert(firstsample.split("").reverse().join(""))
+}
+sample()
