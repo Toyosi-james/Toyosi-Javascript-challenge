@@ -84,8 +84,136 @@ divide(30,2)
 // highestNumber(20,30,50)
 
 
-let sample = (firstsample)=>{
-firstsample =prompt("Enter a string")
-alert(firstsample.split("").reverse().join(""))
+// let sample = (firstsample)=>{
+// firstsample =prompt("Enter a string")
+// alert(firstsample.split("").reverse().join(""))
+// }
+// sample()
+
+// let letters =(longest)=>{
+// longest = prompt("Enter a sentence")
+// alert(longest.split("").lenght)
+// }
+// letters()
+
+// .Create a function that takes age and alerts:
+// 	•	“Child” if age is below 13
+// 	•	“Teenager” if age is 13–19
+//       . “Adult” if age is 20+
+
+//   Write a function that takes a password and checks:
+// 	•	If it’s empty → “Password is required”
+// 	•	If it’s less than 6 characters → “Password is too short”
+// 	•	Else → “Password is strong”
+// Write a function that takes a temperature value and:
+// 	•	Says “It’s cold” if it’s below 15
+// 	•	“It’s warm” if it’s between 15 and 30
+// 	•	“It’s hot” if it’s above 30 Write a function that takes a temperature value and:
+// 	•	Says “It’s cold” if it’s below 15
+// 	•	“It’s warm” if it’s between 15 and 30
+// 	•	“It’s hot” if it’s above 30
+// Create a function that takes a username and password.
+// 	•	If either one is empty → show “Please fill all fields”
+// 	•	If username is “admin” and password is “1234” → show “Login successful”
+// 	•	Else → “Invalid credentials”
+
+
+// .Create a function that takes age and alerts:
+// 	•	“Child” if age is below 13
+// 	•	“Teenager” if age is 13–19
+//       . “Adult” if age is 20+
+
+// let age = (person)=>{
+// person = parseInt(prompt("Enter your Age"))
+// if(person < 13){
+//     alert(`${person} is a child`)
+// }
+// else if(person >=13 && person <= 19){
+//     alert(`${person} is a teenager`)
+// }
+// else  if(person >=20){
+//     alert(`${person} is an adult`)
+// }
+// else{
+//     alert("Enter a valid age")
+// }
+// }
+// age()
+
+
+// /   Write a function that takes a password and checks:
+// 	•	If it’s empty → “Password is required”
+// 	•	If it’s less than 6 characters → “Password is too short”
+// 	•	Else → “Password is strong”
+
+// let password= (setPassword)=>{
+// setPassword=prompt("Enter your password")
+
+// if(setPassword===""){
+//     alert("Password is required")
+// }
+// else if(setPassword.length < 6){
+//     alert("Password is too short")
+// }
+// else{
+//     alert("Password is strong")
+// }
+// }
+// password()
+
+// Write a function that takes a temperature value and:
+// 	•	Says “It’s cold” if it’s below 15
+// 	•	“It’s warm” if it’s between 15 and 30
+// 	•	“It’s hot” if it’s above 30 Write 
+
+// let temperature = (weather)=>{
+// weather =parseInt(prompt("check weather"))
+
+// if(weather < 15){
+//     alert(`${weather} is cold`)
+// }else if(weather >= 15 && weather <= 30 ){ alert(`${weather} is warm`)}else if(weather > 30){
+//     alert(`${weather} is hot`)
+// }else{
+//     alert("This is invalid")
+// }
+// }
+// temperature()
+
+// Create a function that takes a username and password.
+// 	•	If either one is empty → show “Please fill all fields”
+// 	•	If username is “admin” and password is “1234” → show “Login successful”
+// 	•	Else → “Invalid credentials”
+
+// let userDetails =(userName,password)=>{
+// userName=  prompt("Enter your username")
+// password= prompt("Enter your password")
+// if(userName ==="" && password ===""){
+//     alert("Please fill all fields")
+// }else if(userName==="Admin" && password=== "1234"){
+//     alert("Login successful")
+// }else{
+//     alert("Invalid credentials")
+// }
+// }
+// userDetails()
+
+// for(let i=0; i < 10; i++){
+//     console.log('This is the value of i',i)
+// }
+
+// for(let startingIndex =1; startingIndex < 50; startingIndex ++){
+//     if(startingIndex % 2=== 0){
+//      console.log(startingIndex, "is an even number")
+//     }else{
+
+// }
+
+// for(let j = 5; j <= 20; j++){
+//     console.log("This is the value of j", j)
+// }
+
+let score =[1,2,3,4,5,6,7,8,9,10]
+
+for(let z = 0; z < 10; z ++ ){
+    console.log("score=",score[z])
 }
-sample()
