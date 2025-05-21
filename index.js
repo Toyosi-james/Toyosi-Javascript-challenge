@@ -205,15 +205,24 @@ divide(30,2)
 //     if(startingIndex % 2=== 0){
 //      console.log(startingIndex, "is an even number")
 //     }else{
-
-// }
+//    console.log(startingIndex, "is an odd number")
+// }}
 
 // for(let j = 5; j <= 20; j++){
 //     console.log("This is the value of j", j)
 // }
 
-let score =[1,2,3,4,5,6,7,8,9,10]
+// let score =[1,2,3,4,5,6,7,8,9,10]
 
-for(let z = 0; z < 10; z ++ ){
-    console.log("score=",score[z])
+// for(let z = 0; z < 10; z ++ ){
+//     console.log("score=",score[z])
+// }
+
+
+// // let calculate = 5*1
+// // for(let y = 1; y <=12; y++){
+//console.log("calculate=" calculate*y) }
+ 
+for(w=10; w>=1; w--){
+console.log(w)
 }
