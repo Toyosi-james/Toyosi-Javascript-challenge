@@ -223,6 +223,26 @@ divide(30,2)
 // // for(let y = 1; y <=12; y++){
 //console.log("calculate=" calculate*y) }
  
-for(w=10; w>=1; w--){
-console.log(w)
+// 
+
+
+// for(let u = 1;  u <= 50; u++){
+//     console.log(u)
+// }
+
+console.log(document.getElementsByClassName('container'))
+
+console.log(document.getElementsByClassName('text')[0])
+
+console.log(document.getElementById('header').innerText)
+
+console.log(document.getElementsByClassName('btn'))
+
+let student ={
+    name:"Toyosi",
+    age: 16,
+    gender:"female"
 }
+console.log(document.querySelectorAll('li')[2].innerHTML="i have been changed by javascript")
+
+console.log(document.querySelectorAll('li')[3].textContent="GARRI")
