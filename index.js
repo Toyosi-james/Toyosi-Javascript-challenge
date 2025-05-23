@@ -246,3 +246,19 @@ let student ={
 console.log(document.querySelectorAll('li')[2].innerHTML="i have been changed by javascript")
 
 console.log(document.querySelectorAll('li')[3].textContent="GARRI")
+
+
+
+const message = document.getElementsByClassName('highlight')
+for(let i =0; i < message.length; i++){
+    let text = message[i].textContent;
+    if(text.includes('important')){
+        message[i].style.backgroundColor="yellow";
+    }
+    else{
+        message[i].style.backgroundColor="lightgray"
+    }
+
+}
+
+console.log(document.getElementById('first'))
