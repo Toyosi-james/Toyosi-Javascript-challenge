@@ -22,3 +22,15 @@ for(l = 0; l < listItems.length; l++){
         
     }
 }
+function changeImage(){
+    document.getElementById('my-image').src="./Antiquities-img22.jpg" ;
+}
+changeImage()
+
+function changeList(){
+    let list = document.getElementsByClassName('list')
+    for(let i = 0; i < list.length; i++){
+        list[i].style.display="none"
+    }
+}
+changeList()
