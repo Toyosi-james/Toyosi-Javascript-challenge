@@ -262,3 +262,26 @@ for(let i =0; i < message.length; i++){
 }
 
 console.log(document.getElementById('first'))
+
+let header =document.getElementById('header')
+header.style.color="red"
+header.style.backgroundColor="yellow"
+
+let showAlert = ()=>{
+    alert('welcome to javascript')
+}
+
+let showResult = ()=>{
+    alert('you just clicked a button')
+}
+
+function showAnswer(){
+   let check=document.getElementById('open')
+   if(check.innerText === "open"){
+    check.innerText ="close"
+   }else{
+    check.innerText = "open"
+   }
+}
+
+document.getElementById('opener').addEventListener("click", showAnswer)
