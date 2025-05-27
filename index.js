@@ -285,3 +285,15 @@ function showAnswer(){
 }
 
 document.getElementById('opener').addEventListener("click", showAnswer)
+
+let checkAge = ()=>{
+let AgeMate = parseInt(prompt('Enter Your Age'))
+
+if (AgeMate >= 18){
+    alert('you are an adult')
+}else{
+    alert("you are a minor")
+}
+}
+checkAge()
+
