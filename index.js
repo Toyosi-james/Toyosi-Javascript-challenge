@@ -1,34 +1,34 @@
 // comparison operator
-const d ="jane";
-const e ="jane"
+// const d ="jane";
+// const e ="jane"
 
-console.log(d==e)
+// console.log(d==e)
 
-// greater than and lesser than
+// // greater than and lesser than
 
-const x = 77
-const y = 99
+// const x = 77
+// const y = 99
 
-console .log(x > y)
-console.log(x<y)
+// console .log(x > y)
+// console.log(x<y)
 
-// greater than or equals to and lesser than or equals 
-const m = 30
-const n = 20
-console.log(m >= n)
-console.log(m <= n)
+// // greater than or equals to and lesser than or equals 
+// const m = 30
+// const n = 20
+// console.log(m >= n)
+// console.log(m <= n)
 
-// logical operator
-//   OR
-let isSunny = false
-let isRainny= false
-let answer=isSunny||isRainny
-console.log(answer)
+// // logical operator
+// //   OR
+// let isSunny = false
+// let isRainny= false
+// let answer=isSunny||isRainny
+// console.log(answer)
 
-const male = false
-const female = true
-const gender =male || female && isSunny || isRainny
-console.log(gender)
+// const male = false
+// const female = true
+// const gender =male || female && isSunny || isRainny
+// console.log(gender)
 
 // Ternary operator 
 
@@ -230,70 +230,101 @@ divide(30,2)
 //     console.log(u)
 // }
 
-console.log(document.getElementsByClassName('container'))
+// console.log(document.getElementsByClassName('container'))
 
-console.log(document.getElementsByClassName('text')[0])
+// console.log(document.getElementsByClassName('text')[0])
 
-console.log(document.getElementById('header').innerText)
+// console.log(document.getElementById('header').innerText)
 
-console.log(document.getElementsByClassName('btn'))
+// console.log(document.getElementsByClassName('btn'))
 
-let student ={
-    name:"Toyosi",
-    age: 16,
-    gender:"female"
+// let student ={
+//     name:"Toyosi",
+//     age: 16,
+//     gender:"female"
+// }
+// console.log(document.querySelectorAll('li')[2].innerHTML="i have been changed by javascript")
+
+// console.log(document.querySelectorAll('li')[3].textContent="GARRI")
+
+
+
+// const message = document.getElementsByClassName('highlight')
+// for(let i =0; i < message.length; i++){
+//     let text = message[i].textContent;
+//     if(text.includes('important')){
+//         message[i].style.backgroundColor="yellow";
+//     }
+//     else{
+//         message[i].style.backgroundColor="lightgray"
+//     }
+
+// }
+
+// console.log(document.getElementById('first'))
+
+// let header =document.getElementById('header')
+// header.style.color="red"
+// header.style.backgroundColor="yellow"
+
+// let showAlert = ()=>{
+//     alert('welcome to javascript')
+// }
+
+// let showResult = ()=>{
+//     alert('you just clicked a button')
+// }
+
+// function showAnswer(){
+//    let check=document.getElementById('open')
+//    if(check.innerText === "open"){
+//     check.innerText ="close"
+//    }else{
+//     check.innerText = "open"
+//    }
+// }
+
+// document.getElementById('opener').addEventListener("click", showAnswer)
+
+// let checkAge = ()=>{
+// let AgeMate = parseInt(prompt('Enter Your Age'))
+
+// if (AgeMate >= 18){
+//     alert('you are an adult')
+// }else{
+//     alert("you are a minor")
+// }
+// }
+// checkAge()
+
+
+function number(num1,num2){
+console.log(num1/num2)
 }
-console.log(document.querySelectorAll('li')[2].innerHTML="i have been changed by javascript")
 
-console.log(document.querySelectorAll('li')[3].textContent="GARRI")
+number(20,2)
+number(10,2)
 
+// / Write a function that takes a temperature value and:
+// 	•	Says “It’s cold” if it’s below 15
+// 	•	“It’s warm” if it’s between 15 and 30
+// 	•	“It’s hot” if it’s above 30 Write 
 
+let weather = (weatheroutput)=>{
+let weatherResult = parseInt(prompt("check Weather"))
 
-const message = document.getElementsByClassName('highlight')
-for(let i =0; i < message.length; i++){
-    let text = message[i].textContent;
-    if(text.includes('important')){
-        message[i].style.backgroundColor="yellow";
-    }
-    else{
-        message[i].style.backgroundColor="lightgray"
-    }
-
+if(weatherResult < 15){
+    
+    alert(`${weatherResult} is cold`)
 }
-
-console.log(document.getElementById('first'))
-
-let header =document.getElementById('header')
-header.style.color="red"
-header.style.backgroundColor="yellow"
-
-let showAlert = ()=>{
-    alert('welcome to javascript')
+else if(weatherResult >= 15 && weatherResult <= 30){
+    alert(`${weatherResult} is warm`)
 }
-
-let showResult = ()=>{
-    alert('you just clicked a button')
+else if(weatherResult > 30){
+    alert(`${weatherResult} is hot`)
 }
-
-function showAnswer(){
-   let check=document.getElementById('open')
-   if(check.innerText === "open"){
-    check.innerText ="close"
-   }else{
-    check.innerText = "open"
-   }
-}
-
-document.getElementById('opener').addEventListener("click", showAnswer)
-
-let checkAge = ()=>{
-let AgeMate = parseInt(prompt('Enter Your Age'))
-
-if (AgeMate >= 18){
-    alert('you are an adult')
-}else{
-    alert("you are a minor")
+else{
+    alert('This is Invalid')
 }
 }
-checkAge()
-
+weather()
